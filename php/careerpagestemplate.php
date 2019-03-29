@@ -16,7 +16,8 @@ class CareerpagesTemplate {
 	
 	public static function getIni() {
 		$ini = array();
-		
+
+
 		$ini["styles"] = self::getStyles();
 		$ini["scripts"] = self::getScripts();
 
